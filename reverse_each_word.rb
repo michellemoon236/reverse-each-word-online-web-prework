@@ -7,5 +7,5 @@
   sentence.split.collect do |word|
     reverse_sentence << word.reverse 
   end
-
+  reverse_sentence.join(" ")
 end
